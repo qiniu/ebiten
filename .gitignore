@@ -3,3 +3,5 @@
 *.aar
 *.apk
 .vscode
+*.js
+*.js.map

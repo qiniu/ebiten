@@ -19,3 +19,7 @@ require (
 	golang.org/x/tools v0.0.0-20200117220505-0cba7a3a9ee9
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
+
+replace (
+	github.com/hajimehoshi/oto v0.5.4 => github.com/qiniu/oto v0.5.4-fixed
+)
